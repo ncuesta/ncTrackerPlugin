@@ -1,0 +1,23 @@
+connection: propel
+
+package: plugins.ncTrackerPlugin.lib.model
+
+classes:
+  ncTrackerEntry:
+    tableName: nc_tracker_entry
+    columns:
+      id:
+      user_id:
+        type: varchar(255)
+        required: true
+      module_name:
+        type: varchar(255)
+        required: true
+      action_name:
+        type: varchar(255)
+        required: true
+      referrer:
+        type: varchar(255)
+      ip_address:
+        type: varchar(100)
+      created_at:

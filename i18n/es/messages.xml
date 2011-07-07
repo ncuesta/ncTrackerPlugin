@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="EN" target-language="es" datatype="plaintext" original="messages" date="2011-07-06T15:19:05Z" product-name="messages">
+    <header/>
+    <body>
+      <trans-unit>
+        <source>Tracking entries</source>
+        <target>Registros de acceso</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Accessed at</source>
+        <target>Fecha de acceso</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Module</source>
+        <target>Módulo</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Action</source>
+        <target>Acción</target>
+      </trans-unit>
+      <trans-unit>
+        <source>User</source>
+        <target>Usuario</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Referrer</source>
+        <target>Proveniente de</target>
+      </trans-unit>
+      <trans-unit>
+        <source>IP address</source>
+        <target>Dirección IP</target>
+      </trans-unit>
+      <trans-unit>
+        <source>From %from_date%&lt;br />to %to_date%</source>
+        <target>Entre %from_date%&lt;br />y %to_date%</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Details for tracking entry #%id%</source>
+        <target>Detalles del registro de acceso #%id%</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Go back to list</source>
+        <target>Volver al listado</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Details</source>
+        <target>Ver detalles</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

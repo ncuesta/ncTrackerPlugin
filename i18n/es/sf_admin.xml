@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="EN" target-language="es" datatype="plaintext" original="sf_admin" date="2011-07-06T15:19:05Z" product-name="sf_admin">
+    <header/>
+    <body>
+      <trans-unit>
+        <source>Hand-creation of tracking entries is forbidden.</source>
+        <target>No está permitida la creación manual de registros de acceso.</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Hand-edition of tracking entries is forbidden.</source>
+        <target>No está permitida la edición manual de registros de acceso.</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Deletion of tracking entries is forbidden.</source>
+        <target>No está permitido el borrado de registros de acceso.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

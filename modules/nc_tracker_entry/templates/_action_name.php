@@ -1,0 +1,1 @@
+<?php echo __($ncTrackerEntry->getActionName(), array(), 'actions') ?>

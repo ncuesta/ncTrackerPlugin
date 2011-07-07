@@ -1,0 +1,39 @@
+generator:
+  class: sfPropelGenerator
+  param:
+    model_class:           ncTrackerEntry
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ncTrackerEntry
+    plural:                ncTrackerEntries
+    route_prefix:          nc_tracker_entry
+    with_propel_route:     1
+    actions_base_class:    ncIncognitoActions
+
+    config:
+      actions: ~
+      fields:
+        module_name:
+          label: Module
+        action_name:
+          label: Action
+        ip_address:
+          label: IP address
+        created_at:
+          label: Accessed at
+      list:
+        title:   Tracking entries
+        display: [created_at, user_id, _module_name, _action_name]
+        sort:    [created_at, desc]
+        object_actions:
+          show:
+            label: Details
+            action: show
+        actions: {}
+        batch_actions: {}
+      filter:  ~
+      form:
+        class: false
+      edit:    ~
+      new:     ~
